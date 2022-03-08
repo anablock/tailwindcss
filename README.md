@@ -23,7 +23,16 @@
 ### Responsiveness
 * `max-w-md` - max width container
 * `mx-auto` - center the container
-
+Tailwind comes with 5 css breakpoints:
+*   {
+        "sm": "640px",
+        "md": "768px",
+        "lg": "1024px",
+        "xl": "1280px",
+        "2xl": "1536px
+    }
+* targeting a small breakpoint in an element tag:
+    * `sm:max-w-xl`
 ### Nesting
 ```html
 <body class="bg-gray-100">
