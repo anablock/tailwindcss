@@ -2,6 +2,10 @@
 
 * `class="md:flex"` - 
 
+## Classes
+* `bg-` - background
+* 
+
 ## Commands
 * `npx tailwindcss -o build.css --minify`
 * `npx tailwindcss-cli build tailwind.css -o build/tailwind.css`
