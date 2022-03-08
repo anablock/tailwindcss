@@ -4,7 +4,49 @@
 
 ## Classes
 * `bg-...` - background
-* 
+* `p-0` - padding
+* `pl-8` - padding left
+* `pt-8` - padding top
+* `px-8` - padding horizontal (x - axis)
+* `py-8` - padding vertical (y - axis)
+* `h-10` - height
+* `rounded-lg` - rounded corners
+* `shadow-xl` - 
+* `mt-6` - margin top
+* `text-...` - use to change font size and text color
+* `font-thin` - font weight
+* `text-gray-900` - common for designers to use this gray instead of black to make it easier on users' eyes.
+* `space-y-2` - vertical spacing utility.  Use it when 
+
+### Nesting
+```html
+<body class="bg-gray-100">
+    <div class="px-8 py-12">
+      <img class="h-10" src="/img/logo.svg" alt="Workcation" />
+      <img
+        class="mt-6 rounded-lg shadow-xl"
+        src="/img/beach-work.jpg"
+        alt="Woman workcationing on the beach"
+      />
+      <h1 class="mt-6 text-2xl font-bold text-gray-900">
+        You can work from anywhere.
+        <span class="text-indigo-500">Take advantage of it.</span>
+      </h1>
+      <p class="mt-2 text-gray-600">
+        Workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some
+        nice weather even when you're not on vacation.
+      </p>
+      <div class="mt-4">
+        <a
+          class="inline-block px-5 py-3 text-sm font-semibold tracking-wider text-white uppercase bg-indigo-500 rounded-lg shadow-lg"
+          href="#"
+        >
+          Book your escape
+        </a>
+      </div>
+    </div>
+  </body>
+```
 
 ## Commands
 * `npx tailwindcss -o build.css --minify`
