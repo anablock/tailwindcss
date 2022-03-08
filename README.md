@@ -3,7 +3,7 @@
 * `class="md:flex"` - 
 
 ## Classes
-* `bg-` - background
+* `bg-...` - background
 * 
 
 ## Commands
