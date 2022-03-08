@@ -152,6 +152,7 @@ Tailwind comes with 5 css breakpoints:
 * `npm install -D tailwindcss postcss autoprefixer vite`
 * `npx tailwindcss init -p`
 * `npm run dev`
+* `npx tailwindcss init tailwind-full.config.js --full`
 
 ##
 
