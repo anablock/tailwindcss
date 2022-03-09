@@ -20,6 +20,10 @@
 * `inline-block` - use on buttons 
 * `uppercase` - 
 * When using uppercase, increase letter spacing by using `tracking-wider` and `font-semibold`
+* `relative` - 
+* `flex` - Utilities for controlling how flex items both grow and shrink.
+* `items` - Utilities for controlling how flex and grid items are positioned along a container's cross axis.
+
 ### Responsiveness
 * `max-w-md` - max width container
 * `mx-auto` - center the container
@@ -180,4 +184,6 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 * https://caniuse.com/?search=focus-visible
 * https://www.youtube.com/c/TailwindLabs
+* [Caniuse](https://caniuse.com/)
+* [Netflix Top 10](https://top10.netflix.com/films/2022-02-06)
 * [Tailwind Play](https://play.tailwindcss.com/YelhilBeHb)
