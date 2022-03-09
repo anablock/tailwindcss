@@ -23,6 +23,7 @@
 * `relative` - 
 * `flex` - Utilities for controlling how flex items both grow and shrink.
 * `items` - Utilities for controlling how flex and grid items are positioned along a container's cross axis.
+* Use justify-between to justify items along the container’s main axis such that there is an equal amount of space between each item
 
 ### Responsiveness
 * `max-w-md` - max width container
