@@ -180,3 +180,4 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 * https://caniuse.com/?search=focus-visible
 * https://www.youtube.com/c/TailwindLabs
+* [Tailwind Play](https://play.tailwindcss.com/YelhilBeHb)
