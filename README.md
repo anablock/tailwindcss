@@ -206,6 +206,8 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * `p-8` - add padding to separate elements from screen edge
 * `space-y-4` - spacing utility
 * `tracking-wider` - increase the letter spacing
+* `absolute` -
+* `relative` -
 
 ## Building a Youtube thumbnail with Tailwindcss
 ```html
@@ -216,9 +218,9 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
         <!-- Images -->
         <!-- Play button -->
         <!-- Content -->
-        <div class="flex flex-col">
+        <div class="flex flex-col justify-end w-2/3 h-full space-y-4">
             <p class="text-xs font-semibold tracking-wider text-purple-600 uppercase">How to build this</p>
-            <h1>Youtube thumbnail with Tailwind CSS</h1>
+            <h1 class="text-4xl font-extrabold">Youtube thumbnail with Tailwind CSS</h1>
             <svg class="w-36" viewbox="0 0 145 19" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
         </div>
     </div>
