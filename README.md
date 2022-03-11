@@ -200,3 +200,8 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * `md:justify-start` - mid breakpoint: to justify grid items against the start of their inline axis.
 * md:space-x-10
 * `max-w-7xl` - 
+
+## Building a Youtube thumbnail with Tailwindcss
+```html
+
+```
