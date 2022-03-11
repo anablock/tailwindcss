@@ -200,6 +200,12 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * `md:justify-start` - mid breakpoint: to justify grid items against the start of their inline axis.
 * md:space-x-10
 * `max-w-7xl` - 
+* `flex-col` - to stack things vertically
+* `justify-end` to place card at the bottom of the screen
+* `h-full` - add height to flex container
+* `p-8` - add padding to separate elements from screen edge
+* `space-y-4` - spacing utility
+* `tracking-wider` - increase the letter spacing
 
 ## Building a Youtube thumbnail with Tailwindcss
 ```html
@@ -210,6 +216,11 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
         <!-- Images -->
         <!-- Play button -->
         <!-- Content -->
+        <div class="flex flex-col">
+            <p class="text-xs font-semibold tracking-wider text-purple-600 uppercase">How to build this</p>
+            <h1>Youtube thumbnail with Tailwind CSS</h1>
+            <svg class="w-36" viewbox="0 0 145 19" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+        </div>
     </div>
 </body>
 ```
