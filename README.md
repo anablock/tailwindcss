@@ -208,12 +208,17 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * `tracking-wider` - increase the letter spacing
 * `absolute` -
 * `relative` -
+* `overflow-hodden` - prevent bleeding from the container
+* use `grid` to center elements
+* `grid-place-items-center` to center is vertically and horizontalyy
 
 ## Building a Youtube thumbnail with Tailwindcss
 ```html
 <body class="grid min-h-screen p-4 bg-gray-900 place-items-center">
-    <div class="w-[640px] h-[360px] bg-white">
+    <div class="relative w-[640px] h-[360px] bg-white overflow-hidden">
         <!-- Top right circle -->
+        <div aria-hidden="true" class="absolute -top-16 -left-12 w-[200px] h-[200px] bg-purple-500 rounded-full">
+        </div>
         <!-- Right big circle -->
         <!-- Images -->
         <!-- Play button -->
