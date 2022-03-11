@@ -203,5 +203,13 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 
 ## Building a Youtube thumbnail with Tailwindcss
 ```html
-
+<body class="grid min-h-screen p-4 bg-gray-900 place-items-center">
+    <div class="w-[640px] h-[360px] bg-white">
+        <!-- Top right circle -->
+        <!-- Right big circle -->
+        <!-- Images -->
+        <!-- Play button -->
+        <!-- Content -->
+    </div>
+</body>
 ```
