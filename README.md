@@ -188,3 +188,15 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * [Caniuse](https://caniuse.com/)
 * [Netflix Top 10](https://top10.netflix.com/films/2022-02-06)
 * [Tailwind Play](https://play.tailwindcss.com/YelhilBeHb)
+
+# 
+* `flex` -  
+* `items-center` -  align items along the center of the container’s cross axis
+* `justify-between` - justify items along the container’s main axis such that there is an equal amount of space between each item.
+* `py-6` - 
+* border-gray-100 
+* items-left 
+* border-b-1 
+* `md:justify-start` - mid breakpoint: to justify grid items against the start of their inline axis.
+* md:space-x-10
+* `max-w-7xl` - 
