@@ -225,11 +225,11 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
             </svg>
         </div>
         <!-- Right big circle -->
-        <div aria-hidden="true">
-          
-        </div>
+        <div aria-hidden="true" class="absolute w-[512px] h-[512px] bg-purple-200"></div>
         <!-- Images -->
+
         <!-- Play button -->
+        
         <!-- Content -->
         <div className="relative p-8 flex flex-col justify-end w-2/3 h-full space-y-4">
             <p class="text-xs font-semibold tracking-wider text-purple-600 uppercase">How to build this</p>
