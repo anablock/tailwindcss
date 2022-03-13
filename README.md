@@ -212,7 +212,8 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * `relative` -
 * `overflow-hodden` - prevent bleeding from the container
 * use `grid` to center elements
-* `grid-place-items-center` to center is vertically and horizontalyy
+* `grid-place-items-center` to center is vertically and horizontaly
+* `object-cover` - this attribute prevents stretching of an image
 
 ## Building a Youtube thumbnail with Tailwindcss
 ```html
@@ -225,7 +226,7 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
             </svg>
         </div>
         <!-- Right big circle -->
-        <div aria-hidden="true" class="absolute w-[512px] h-[512px] bg-purple-200"></div>
+        <div aria-hidden="true" class="absolute w-[512px] h-[512px] bg-purple-200 rounded-full -top-20 -right-56" ></div>
         <!-- Images -->
 
         <!-- Play button -->
