@@ -223,7 +223,9 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
             </svg>
         </div>
         <!-- Right big circle -->
-        
+        <div>
+          
+        </div>
         <!-- Images -->
         <!-- Play button -->
         <!-- Content -->
