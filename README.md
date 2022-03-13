@@ -218,7 +218,7 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
     <div class="relative w-[640px] h-[360px] bg-white overflow-hidden">
         <!-- Top right circle -->
         <div aria-hidden="true" class="absolute -top-16 -left-12 w-[200px] h-[200px] bg-purple-500 rounded-full grid-place-items-center">
-            <svg>
+            <svg class="">
 
             </svg>
         </div>
@@ -226,7 +226,7 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
         <!-- Images -->
         <!-- Play button -->
         <!-- Content -->
-        <div class="flex flex-col justify-end w-2/3 h-full space-y-4">
+        <div className="flex flex-col justify-end w-2/3 h-full space-y-4">
             <p class="text-xs font-semibold tracking-wider text-purple-600 uppercase">How to build this</p>
             <h1 class="text-4xl font-extrabold">Youtube thumbnail with Tailwind CSS</h1>
             <svg class="w-36" viewbox="0 0 145 19" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
