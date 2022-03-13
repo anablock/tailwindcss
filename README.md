@@ -181,6 +181,7 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 
 
 ## Links
+* [Box Alignment Cheatsheet](https://rachelandrew.co.uk/css/cheatsheets/box-alignment)
 * https://codepen.io/bradtraversy/pen/JgXqBL
 * https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 * https://caniuse.com/?search=focus-visible
@@ -188,6 +189,7 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * [Caniuse](https://caniuse.com/)
 * [Netflix Top 10](https://top10.netflix.com/films/2022-02-06)
 * [Tailwind Play](https://play.tailwindcss.com/YelhilBeHb)
+
 
 # 
 * `flex` -  
@@ -223,7 +225,7 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
             </svg>
         </div>
         <!-- Right big circle -->
-        <div>
+        <div aria-hidden="true">
           
         </div>
         <!-- Images -->
