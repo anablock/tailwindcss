@@ -228,7 +228,7 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
         <!-- Images -->
         <div class="absolute top-8 right-8">
           <img src="" alt="image" class="object-cover w-64 shadow-2xl h-36 rounded-2xl rotate-3"/>
-          <img src="/img/Screen-shot-code.png" alt="Code" class="object-cover w-64 shadow-2xl h-36 rounded-2xl -rotate-3"/>
+          <img src="/img/Screen-shot-code.png" alt="Code" class="object-cover w-64 translate-x-16 shadow-2xl h-36 rounded-2xl -rotate-3"/>
         </div>
         <!-- Play button -->
         
