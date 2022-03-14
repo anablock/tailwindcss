@@ -231,7 +231,7 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
           <img src="/img/Screen-shot-code.png" alt="Code" class="object-cover w-64 translate-x-16 shadow-2xl h-36 rounded-2xl -rotate-3"/>
         </div>
         <!-- Play button -->
-        
+        <div></div>
         <!-- Content -->
         <div className="relative p-8 flex flex-col justify-end w-2/3 h-full space-y-4">
             <p class="text-xs font-semibold tracking-wider text-purple-600 uppercase">How to build this</p>
