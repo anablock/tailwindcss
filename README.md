@@ -221,14 +221,15 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
     <div class="relative w-[640px] h-[360px] bg-white overflow-hidden">
         <!-- Top right circle -->
         <div aria-hidden="true" class="absolute -top-16 -left-12 w-[200px] h-[200px] bg-purple-500 rounded-full grid-place-items-center">
-            <svg class="w-[64px] h-[72px] ml-3 mt-3" viewbox="0 0 64 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-            </svg>
+            <svg class="w-[64px] h-[72px] ml-3 mt-3" viewbox="0 0 64 72" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
         </div>
         <!-- Right big circle -->
         <div aria-hidden="true" class="absolute w-[512px] h-[512px] bg-purple-200 rounded-full -top-20 -right-56" ></div>
         <!-- Images -->
-
+        <div class="absolute top-8 right-8">
+          <img src="" alt="image" class="object-cover w-64 shadow-2xl h-36 rounded-2xl rotate-3"/>
+          <img src="/img/Screen-shot-code.png" alt="Code" class="object-cover w-64 shadow-2xl h-36 rounded-2xl -rotate-3"/>
+        </div>
         <!-- Play button -->
         
         <!-- Content -->
