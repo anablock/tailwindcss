@@ -214,6 +214,7 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * use `grid` to center elements
 * `grid-place-items-center` to center is vertically and horizontaly
 * `object-cover` - this attribute prevents stretching of an image
+* `class="grid place-items-center"` - to center elements on the viewport
 
 ## Building a Youtube thumbnail with Tailwindcss
 ```html
@@ -231,7 +232,14 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
           <img src="/img/Screen-shot-code.png" alt="Code" class="object-cover w-64 translate-x-16 shadow-2xl h-36 rounded-2xl -rotate-3"/>
         </div>
         <!-- Play button -->
-        <div></div>
+        <div class="absolute inset-0 grid items-center right-12">
+          <a href="#" class="grid w-12 h-12 transition bg-purple-500 rounded-full ring-white place-items-center hover:bg-purple-300">
+            <span class="sr-only">Watch the video</span>
+            <svg class="w-4 m-1" viewbox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="#" fill="white"/>
+            </svg>
+          </a>
+        </div>
         <!-- Content -->
         <div className="relative p-8 flex flex-col justify-end w-2/3 h-full space-y-4">
             <p class="text-xs font-semibold tracking-wider text-purple-600 uppercase">How to build this</p>
