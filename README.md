@@ -215,6 +215,32 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
 * `grid-place-items-center` to center is vertically and horizontaly
 * `object-cover` - this attribute prevents stretching of an image
 * `class="grid place-items-center"` - to center elements on the viewport
+* `justify-content` - 
+#### When aligning items on the inline axis you will use the properties which begin with justify-:
+  * justify-items
+  * justify-self
+  * justify-content
+#### When aligning items on the block axis you will use the properties that begin align-:
+* align-items
+* align-self
+* align-content
+
+Flexbox adds an additional complication in that the above is true when flex-direction is set to row. The properties are swapped when flexbox is set to column. Therefore, when working with flexbox it is easier to think about the main and cross axis rather than inline and block. The justify- properties are always used to align on the main axis, the align- properties on the cross axis.
+
+#### The alignment subject
+The alignment subject is the thing that is being aligned. For justify-self or align-self, or when setting these values as a group with justify-items or align-items, this will be the margin box of the element that this property is being used on. The justify-content and align-content properties differ per layout method.
+
+#### The alignment container
+The [alignment container](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment) is the box the subject is being aligned inside. This will typically be the alignment subject's containing block. An alignment container may contain one or many alignment subjects.
+
+#### Types of alignment
+There are three different types of alignment that the specification details; these use keyword values.
+
+Positional alignment: specifying the position of an alignment subject with relation to its alignment container.
+Baseline alignment: These keywords define alignment as a relationship among the baselines of multiple alignment subjects within an alignment context.
+Distributed alignment: These keywords define alignment as a distribution of space among alignment subjects.
+
+
 
 ## Building a Youtube thumbnail with Tailwindcss
 ```html
@@ -248,4 +274,27 @@ The font size, text color, and font-weight utilities (text-xl, text-black, font-
         </div>
     </div>
 </body>
+```
+
+## Glowing Effect with Blur filter
+```javascript
+<body className="min-h-screen px-8 py-16 bg-gray-700">
+  <div className="grid gap-8 items-start justify-center">
+    <button className="px-7 py-4 bg-black rounded-lg leading-none flex items-center">
+      <span className="text-gray-100">Labs Release</span>
+    </button>
+  </div>
+</body>
+
+
+<div className="px-2 py-4 bg-black">
+  <div className="grid items-start justify-center gap-8 mt-8">
+    <div className="relative group">
+      <div className="group-hover:opacity-100 transition duration-1000 group-hover:duraation-200 absolute rounded-lg opacity-80 bg-gradient-to-r from-pink-600 to-purple-500 -inset-3 blur-[2px] animate-tilt"></div>
+      <button className="relative flex items-center py-4 leading-none bg-black rounded-lg px-4">
+        <span className="pl-2 pr-2 text-gray-300 transition duration-300 group-hover:text-gray-100">Get started</span>
+      </button>
+    </div>
+  </div>
+</div>
 ```
