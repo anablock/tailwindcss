@@ -301,3 +301,7 @@ Distributed alignment: These keywords define alignment as a distribution of spac
 
 ## Borders
 * 
+
+* [Welcome to the Contentful help center](https://gifted-raman-ffba9b.netlify.app/)
+* https://www.youtube.com/watch?v=ZZRTUpRzETo
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
