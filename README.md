@@ -18,8 +18,7 @@
 * `text-gray-900` - common for designers to use this gray instead of black to make it easier on users' eyes.
 * `space-y-2` - vertical spacing utility.  Use it to replace multiple common attributes to elements.
 * `inline-block` - use on buttons 
-* `uppercase` - 
-* When using uppercase, increase letter spacing by using `tracking-wider` and `font-semibold`
+* `uppercase` - When using uppercase, increase letter spacing by using `tracking-wider` and `font-semibold`
 * `relative` - 
 * `flex` - Utilities for controlling how flex items both grow and shrink.
 * `items` - Utilities for controlling how flex and grid items are positioned along a container's cross axis.
