@@ -1,6 +1,6 @@
 # README
 
-* `class="md:flex"` - 
+* `class="md:flex"`
 
 ## Classes
 * `bg-...` - background
